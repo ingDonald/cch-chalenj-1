@@ -1,0 +1,95 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+header {
+display: flex;
+position: relative;
+background-color: #ffffff;
+width: 100%;
+
+}
+
+.logo{
+    margin: 25px;
+}
+nav {
+display: flex;
+margin: auto;
+width: 100%;
+text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+text-decoration: none;
+margin-bottom: 20px;
+
+}
+
+.first{
+    display: flex;
+  
+}
+
+.first a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    margin: 12px;
+}
+
+.last{
+    display: flex;
+    margin-left: 55%;
+    margin-right: auto;
+}
+
+.last a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    margin: 12px;
+}
+
+section{
+    display: flex;
+    margin-left: 150px;
+}
+
+button{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+h1{
+    font-size: 65px;
+    color: (0, 0%, 8%);
+}
+
+.ape{
+    font-size: 18px;
+}
+
+
+.droite{
+    margin: auto;
+}
+.droite img{
+    width: 350px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
